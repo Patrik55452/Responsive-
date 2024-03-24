@@ -1,2 +1,0 @@
-# Responsive-
-Responsivni webova stránka
