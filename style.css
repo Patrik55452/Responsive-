@@ -352,16 +352,15 @@
   height: auto;
 }
 
-.fotky img{
-  width: 500px;
-  height: 500px;
-}
-
 .fotky{
-  padding: 0px 350px 0px;
+  padding: 0;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 0;
+}
+.fotky img{
+  width: 100%;
+  height: 500px;
 }
 
 /* MEDIA QUERRY PRO GALERII 4 IMAGES */
@@ -369,7 +368,6 @@
 @media (max-width: 745px) {
   .fotky {
     margin-top: 10px;
-    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
